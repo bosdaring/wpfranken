@@ -1,4 +1,4 @@
-# wpfranken
+# WPFranken
 WPFranken is high performance WordPress on Caddy+FrankenPHP
 
 Our official docker image \
