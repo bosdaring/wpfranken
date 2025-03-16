@@ -5,7 +5,7 @@ Our official docker image \
 https://hub.docker.com/r/bosdaring/wpfranken
 
 == installation == \
-create a stack with MySQL or remote db \
+create a stack with MySQL or remote db 
 
 example.env
 
@@ -16,7 +16,7 @@ WORDPRESS_DB_NAME=dbname \
 WORDPRESS_DEBUG=false \
 WORDPRESS_DB_PASSWORD=changeme* \
 #listen to HTTP :80 or HTTPS :443 \
-SERVER_NAME=:80 \
+SERVER_NAME=:80 
 
 mount volume
 /var/www/html/wp-content
