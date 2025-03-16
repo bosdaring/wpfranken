@@ -5,7 +5,7 @@ Our official docker image \
 https://hub.docker.com/r/bosdaring/wpfranken
 
 == installation == \
-create a stack with MySQL or remote db 
+create a docker stack with MySQL or remote db 
 
 example.env
 
