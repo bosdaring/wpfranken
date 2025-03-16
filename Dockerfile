@@ -18,7 +18,7 @@ RUN xcaddy build \
     --with github.com/dunglas/frankenphp/caddy=./caddy/ \
     --with github.com/dunglas/caddy-cbrotli \
     # Add extra Caddy modules here
-    --with github.com/stephenmiracle/frankenwp/sidekick/middleware/cache=./cache
+    --with github.com/bosdaring/wpfranken/sidekick/middleware/cache=./cache
 
 FROM wordpress:$WORDPRESS_VERSION AS wp
 FROM dunglas/frankenphp:php${PHP_VERSION} AS base
